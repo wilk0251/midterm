@@ -1,4 +1,8 @@
-/* body{
+/* 
+
+Tried to do it based off of the image before realizing there were helpful instructions
+
+body{
   margin: 0;
   font-family: "Vesper Libre", serif;
   text-decoration-color: #1a1a1a;
@@ -49,19 +53,19 @@ header, footer {
   text-align: center;
 }
 
+#Main_Img {
+  width: 100%;
+  margin-top: 1.25rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 #head_logo {
   padding-top: 8px;
 }
 
 main {
   padding: 20px;
-}
-
-#Main_Img {
-  width: 100%;
-  margin-top: 1.25rem;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 h1 {
@@ -78,12 +82,13 @@ h1 {
   border-bottom: 2px solid #ff3530;
 }
 
-
-figcaption, h2, #News, #Subtitle, #Author, #Date {
+figcaption, h2, .news, #Subtitle, #Author_Date {
   font-family: "Open Sans", serif;
 }
 
-#Author, #Date {
+#Author_Date {
+  width: 150px;
+  word-break: keep-all;
   font-size: 0.85rem;
   margin-bottom: 0;
 }
@@ -95,9 +100,9 @@ figcaption {
   font-style: italic;
 }
 
-ul li {
+ul {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0%;
 }
 
 a:link {
@@ -105,12 +110,7 @@ a:link {
   text-decoration: underline;
 }
 
-
 a:hover {
   text-decoration: none;
   color: #ff3530;
 }
-
-
-/* Having trouble aligning the list in index.html. */
-
